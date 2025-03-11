@@ -1,7 +1,4 @@
-#!/bin/bash
-
-# Install dependencies required for dlib
-apt-get update && apt-get install -y cmake gcc g++ make libboost-all-dev
-
-# Install Python dependencies
+#!/usr/bin/env bash
+apt-get update && apt-get install -y cmake g++ build-essential
 pip install -r requirements.txt
+
